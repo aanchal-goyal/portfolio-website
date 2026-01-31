@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #2563eb, #9333ea);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #020617;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    list-style: none;
+    background: #1e293b;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+#projects ul li {
+    background: #312e81;
+}
+
+a {
+    color: #38bdf8;
+}
+
+#contact p {
+    margin-bottom: 8px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #020617;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+#theme-toggle {
+    background: transparent;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #e5e7eb;
+}
+
+/* Light Theme */
+body.light {
+    background: #f8fafc;
+    color: #020617;
+}
+
+body.light header {
+    background: linear-gradient(135deg, #3b82f6, #22c55e);
+}
+
+body.light section {
+    background: #ffffff;
+    color: #020617;
+}
+
+body.light .navbar {
+    background: #ffffff;
+}
+
+body.light .nav-links a {
+    color: #020617;
+}
+
+body.light .card {
+    background: #f1f5f9;
+}
+
+body.light ul li {
+    background: #e0e7ff;   /* soft light blue */
+    color: #020617;
+}
