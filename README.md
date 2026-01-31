@@ -1,2 +1,5 @@
-# portfolio-website
-Personal Portfolio Website Tech Stack: HTML, CSS, JavaScript  This repository contains my personal portfolio website showcasing my skills, projects, and contact details.
+# Personal Portfolio Website
+
+A modern, responsive portfolio built using HTML, CSS, and JavaScript.
+
+Includes dark/light theme, project cards, and smooth navigation.
