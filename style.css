@@ -67,6 +67,22 @@ a {
     color: #38bdf8;
 }
 
+.card a {
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 0.85rem;
+  transition: 0.3s;
+}
+    
+.card a:hover {
+  background: #1e40af;
+}
+
 #contact p {
     margin-bottom: 8px;
 }
@@ -135,6 +151,10 @@ body.light .nav-links a {
     color: #020617;
 }
 
+body.light .nav-links a:hover {
+    color: #38bdf8;
+}
+
 body.light .card {
     background: #f1f5f9;
 }
@@ -142,4 +162,12 @@ body.light .card {
 body.light ul li {
     background: #e0e7ff;   /* soft light blue */
     color: #020617;
+}
+
+body.light .card a {
+    background: #3b82f6;
+}
+
+body.light .card a:hover {
+    background: #256cde;
 }
